@@ -4,9 +4,11 @@ import MyAppBar from "./components/MyAppBar";
 
 function App() {
   return (
-    <>
-      
-    </>
+    <div className="App">
+      <header className="App-header">
+        <MyAppBar />
+      </header>
+    </div>
   );
 }
 
